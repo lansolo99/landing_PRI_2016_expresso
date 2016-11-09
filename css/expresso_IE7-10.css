@@ -17,3 +17,11 @@
 .expresso_wrapper.expresso_bandeau #expresso_avantages .expresso_section .col.span_1_of_4.last{
 	width: 226px;
 }
+
+#expresso_avantages .expresso_section .col.span_1_of_4.rapide {
+	width: 21%;
+}
+
+#expresso_avantages .expresso_section .col.span_1_of_4.rapide {
+	width: 23%;
+}
