@@ -25,3 +25,11 @@
 #expresso_avantages .expresso_section .col.span_1_of_4.rapide {
 	width: 23%;
 }
+
+.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu{
+	padding-right: 60px;
+}
+
+#expresso_action .text_group.chapo, #expresso_avantages .text_group.chapo {
+	font-size:18px;
+}
