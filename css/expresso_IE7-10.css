@@ -1,0 +1,19 @@
+#n2g_auto_action a.n2g_auto_button span i.chevron, #n2g_auto_avantages a.n2g_auto_button span i.chevron{
+	top:2px;
+}
+
+#n2g_auto_action a.n2g_auto_button.agence span i.chevron{
+	top:0px;
+}
+
+#n2g_auto_avantages .n2g_auto_section .col.span_1_of_4 {
+	width: 25%;
+}
+
+#n2g_auto_avantages .n2g_auto_section .col.span_1_of_4 .n2g_auto_contenu{
+	margin: 30px 24px 20px 24px;
+}
+
+.n2g_auto_wrapper.n2g_auto_bandeau #n2g_auto_avantages .n2g_auto_section .col.span_1_of_4.last{
+	width: 242px;
+}

@@ -1,0 +1,5 @@
+#n2g_auto_action .n2g_auto_form input[type="text"] {
+	float:left;
+	padding: 19px 10px;
+	height: 20px;
+}
