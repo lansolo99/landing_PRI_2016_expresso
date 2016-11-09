@@ -171,14 +171,16 @@
 	}
 
 	#expresso_action .text_group.chapo, #expresso_avantages .text_group.chapo {
-		font-size:18px;
+		font-size:19px;
 		line-height: 30px;
 	}
 
-	#expresso_action .text_group.chapo.expresso_mention_credit{
+	#expresso_action .text_group.chapo.expresso_mention_credit, #expresso_avantages .text_group.chapo.expresso_mention_credit{
 		font-size:14px;
 		color: #333333;
 	}
+
+
 
 	#expresso_action .text_group.chapo span{
 		display: block;
@@ -199,6 +201,10 @@
 		margin-top:45px;
 		width: 770px;
 	}
+
+/* 	.expresso_wrapper.expresso_carre #expresso_action .expresso_options{
+	margin-top:0px;
+} */
 
 
 	/*  SECTIONS  */
@@ -425,6 +431,14 @@
 		margin-top: 0px;
 	}
 
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section{
+		margin-top: 50px;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options{
+		margin-top: 0px;
+	}
+
 	#expresso_avantages .expresso_section .col{
 		margin: 0% 0 1% 0%;
 		text-align: center;
@@ -440,6 +454,10 @@
 
 #expresso_avantages .expresso_section .col.span_1_of_4.simple_width {
 	width: 32%;
+}
+
+#expresso_avantages .expresso_section .col.span_1_of_4.last {
+	width: 24%;
 }
 
 #expresso_avantages .expresso_section .col.span_1_of_4.simple_width ul {
@@ -462,6 +480,18 @@
 		line-height: 22px;
 	}
 
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu strong{
+		font-size: 16px;
+	}
+
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu ul strong{
+		font-size: 14px;
+	}
+
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span strong{
+		font-size: 14px;
+	}
+
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu strong{
 		font-size: 22px;
 	}
@@ -479,16 +509,21 @@
 		color: #333333;
 	}
 
-	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span strong, #expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu ul strong{
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span strong,
+	 #expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu ul strong{
 		color: #333333;
 	}
 
-	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu strong sup, .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu strong sup{
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu strong sup,
+	 .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu strong sup{
 		font-size: 9px;
 		top: -5px;
 	}
 
-	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span, #expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu ul , .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu span{
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span,
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu ul ,
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu span,
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu ul{
 		display: block;
 		text-transform:none;
 		font-size: 14px;
@@ -497,7 +532,18 @@
     line-height: 20px;
 		}
 
-	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span sup, .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu span sup{
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu ul strong{
+		color: #333333;
+		font-size: 14px;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu ul li{
+		list-style-position: inside;
+
+	}
+
+	#expresso_avantages .expresso_section .col.span_1_of_4 .expresso_contenu span sup,
+	 .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu span sup{
 		font-size: 9px;
 		top: -3px;
 	}
@@ -508,15 +554,17 @@
 	.expresso_wrapper.expresso_carre #expresso_avantages{
 		text-align: center;
 		padding: 40px 70px;
+		padding-bottom: 25px;
 		background-color: #ffffff;
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .text_group.chapo{
-		margin-bottom: 50px;
+		margin-bottom: 0px;
 	}
 
+
+
   .expresso_wrapper.expresso_carre #expresso_avantages .cta_group{
-		height: auto;
 		margin-top: 60px;
 	}
 
@@ -535,16 +583,23 @@
 		padding-right: 65px;
 	}
 
-	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e1 .expresso_contenu, .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e2 .expresso_contenu{
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e2 .expresso_contenu,
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e4 .expresso_contenu{
+		padding-right: 20px;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e1 .expresso_contenu,
+	 .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e2 .expresso_contenu{
 		margin-bottom: 25px;
 	}
 
-	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e3 .expresso_contenu, .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e4 .expresso_contenu{
+	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e3 .expresso_contenu,
+	 .expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e4 .expresso_contenu{
 		margin-top: 40px;
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e1{
-		background-image: url('../images/avantages_picto_formalite.png');
+		background-image: url('../images/avantages_picto_en_ligne.png');
 		background-repeat: no-repeat;
 		background-position: 44px 10px;
 		width: 418px;
@@ -553,14 +608,14 @@
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e2{
-		background-image: url('../images/avantages_picto_depannage.png');
+		background-image: url('../images/avantages_picto_simple.png');
 		background-repeat: no-repeat;
 		background-position: 44px 10px;
 		border-bottom:1px solid #c9c9c9;
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e3{
-		background-image: url('../images/avantages_picto_covoiturage.png');
+		background-image: url('../images/avantages_picto_rapide.png');
 		background-repeat: no-repeat;
 		background-position: 44px 50px;
 		width: 418px;
@@ -568,7 +623,7 @@
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e4{
-		background-image: url('../images/avantages_picto_assistance.png');
+		background-image: url('../images/avantages_picto_flexible.png');
 		background-repeat: no-repeat;
 		background-position: 44px 50px;
 	}
