@@ -162,7 +162,7 @@
 
 	.expresso_wrapper.expresso_carre #expresso_action{
 		background-color: #efebea;
-		padding: 35px 50px 40px 50px;
+		padding: 35px 20px 40px 20px;
 	}
 
 	#expresso_action .text_group{
@@ -185,7 +185,7 @@
 	#expresso_action .text_group.chapo span{
 		display: block;
 		margin-top: 10px;
-		line-height: 25px;
+		line-height: 30px;
 	}
 	#expresso_action .text_group.chapo sup{
 		position: relative;
@@ -202,9 +202,6 @@
 		width: 770px;
 	}
 
-/* 	.expresso_wrapper.expresso_carre #expresso_action .expresso_options{
-	margin-top:0px;
-} */
 
 
 	/*  SECTIONS  */
@@ -241,10 +238,7 @@
 	/*  GRID */
 
 
-
-
 	/* Options */
-
 
 	#expresso_action .expresso_options .col {
 		margin: 0% 0 0% 0;
@@ -287,12 +281,50 @@
 		font-weight: bold;
 	}
 
+	/* Options carre */
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .span_1_of_2.e2 .expresso_contenu{
+		margin-left: 0px
+	}
+
+
+		.expresso_wrapper.expresso_carre #expresso_action .expresso_options{
+			width: 930px;
+		}
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .col span.expresso_label{
+		text-align: center;
+		padding-left: 0px;
+		width: auto;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .col.span_1_of_2.e1 span.expresso_label,
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .col.span_1_of_2.e2 span.expresso_label{
+		background-image:none;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .col.span_1_of_2.e1,
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .col.span_1_of_2.e2{
+		width: 50%;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .col.span_1_of_2.e1{
+		border-right: none;
+	}
+
+	.expresso_wrapper.expresso_carre #expresso_action .expresso_options .expresso_contenu .expresso_form{
+		display:block;
+		margin: auto;
+		width: 320px;
+	}
+
+
+	/* FIn Options carre */
 
 	#expresso_action .expresso_options .col.span_1_of_2.e1 span.expresso_label{
 		background-image: url('../images/souscription_icon_telephone.png');
 		background-repeat: no-repeat;
 		background-position: 0px 10px;
-
 	}
 
 
