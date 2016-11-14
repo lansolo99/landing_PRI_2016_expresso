@@ -485,6 +485,10 @@
 		background-position: top center;
 	}
 
+	#expresso_avantages .expresso_section .col.span_1_of_4.rapide {
+		width: 222px;
+	}
+
 #expresso_avantages .expresso_section .col.span_1_of_4.simple_width {
 	width: 32%;
 }
@@ -492,7 +496,7 @@
 
 
 #expresso_avantages .expresso_section .col.span_1_of_4.last {
-	width: 24%;
+	width: 22%;
 }
 
 #expresso_avantages .expresso_section .col.span_1_of_4.simple_width ul {
