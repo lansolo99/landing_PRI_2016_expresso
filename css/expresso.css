@@ -423,6 +423,7 @@
 	#expresso_action a.expresso_button span, 	#expresso_avantages a.expresso_button span {
 		position: relative;
 		width:auto;
+		top:3px;
 	}
 
 	#expresso_action a.expresso_button span i.chevron, #expresso_avantages a.expresso_button span i.chevron{
@@ -433,7 +434,7 @@
 		background-image: -webkit-image-set( url('../images/chevron.png') 1x, url('../images/chevron-2x.png') 2x );
 	  background-size: 100%;
 		right:-40px;
-		top:2px;
+		top:0px;
 	}
 
 
@@ -487,6 +488,8 @@
 #expresso_avantages .expresso_section .col.span_1_of_4.simple_width {
 	width: 32%;
 }
+
+
 
 #expresso_avantages .expresso_section .col.span_1_of_4.last {
 	width: 24%;
@@ -562,6 +565,7 @@
 		color: #333333;
 		margin-top: 10px;
     line-height: 20px;
+		list-style-type: none;
 		}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu ul strong{
@@ -570,7 +574,7 @@
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu ul li{
-		list-style-position: inside;
+		list-style-type:none
 
 	}
 
@@ -612,7 +616,7 @@
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2 .expresso_contenu{
 		margin-left:120px;
 		height:100px;
-		padding-right: 65px;
+		padding-right: 50px;
 	}
 
 	.expresso_wrapper.expresso_carre #expresso_avantages .expresso_section .col.span_1_of_2.e2 .expresso_contenu,
